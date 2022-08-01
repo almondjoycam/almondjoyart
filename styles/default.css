@@ -53,3 +53,25 @@ nav {
         margin: 0% 0% 0% 0%;
     }
 }
+
+.icons {
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.txtlink:hover {
+    text-decoration: underline;
+}
+
+a.btn {
+    background-color:#000000;
+    padding: 10px 10px 10px 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+a.btn:hover {
+    background-color: #222222;
+}
