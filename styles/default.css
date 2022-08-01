@@ -43,17 +43,6 @@ nav {
     margin: 0% 5% 0% 5%;
 }
 
-@media only screen and (max-width: 700px) {
-    main {
-        width: 95%;
-        margin: auto;
-    }
-    
-    .navlink {
-        margin: 0% 0% 0% 0%;
-    }
-}
-
 .icons {
     color: #FFFFFF;
 }
@@ -68,10 +57,52 @@ a.txtlink:hover {
 
 a.btn {
     background-color:#000000;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     margin: 30px 10px 10px 10px;
 }
 
-a.btn:hover {
-    background-color: #222222;
+.step {
+    width: 80%;
+    padding: 10px 10px;
+}
+
+#step1, #step3 {
+    float:right;
+}
+
+#step2 {
+    float:left;
+}
+
+svg.stepsvg {
+    display: none;
+}
+
+#guidelines {
+    margin-bottom: 50px;
+}
+
+/* For small screens */
+@media only screen and (max-width: 700px) {
+    main {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .navlink {
+        margin: 0%;
+    }
+    
+    .step {
+        width: 100%;
+        float: none;
+    }
+    
+}
+
+/* For large screens */
+@media only screen and (min-width: 1000px) {
+    svg.stepsvg {
+        display: block;
+    }
 }
