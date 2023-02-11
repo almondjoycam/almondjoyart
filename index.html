@@ -36,10 +36,10 @@
             <!-- Header/Home -->
             <header class="w3-container w3-padding-32 w3-black" id="home">
                 <h1>camber elysium</h1>
-                <a href="https://pronouny.xyz/u/almondjoycam" target="_blank" title="Pronouns" style="a:link {text-decoration: none;} a:hover {text-decoration: underline;}" class="txtlink">they/ae/it</a>
-                <p>queer, trans, neurodivergent psych nerd who draws. US-based.</p>
-                <div class="icons">
-                    <a href="https://paypal.me/almondjoyart" target="_blank" title="PayPal"><i class="fa-brands fa-paypal fa-fw"></i></a>
+                <a href="https://pronouny.xyz/u/almondjoycam" target="_blank" title="Pronouns" style="a:link {text-decoration: none;} a:hover {text-decoration: underline;}" class="txtlink">it/they/ae</a>
+                <p>Artist, developer, gamer. EST</p>
+                <div class="icons" id="icons">
+                    <a href="https://paypal.me/almondjoycam" target="_blank" title="PayPal"><i class="fa-brands fa-paypal fa-fw"></i></a>
                     <a href="mailto:theaffablealmond@gmail.com" target="_blank" title="Email"><i class="fa-solid fa-envelope fa-fw"></i></a>
                     <a href="https://www.fiverr.com/almondjoycam" target="_blank" title="Fiverr"><i class="fa-solid fa-5 fa-fw"></i></a>
                     <a href="https://www.redbubble.com/people/almondjoycam/shop" target="_blank" title="Redbubble"><i class="fa-solid fa-bag-shopping fa-fw"></i></a>
@@ -49,7 +49,7 @@
             <!-- Comms Section -->
             <section class="w3-padding-64 w3-center w3-content" id="comms">
                 <div class="w3-container" style="background-color: #50938a55">
-                    <h2 class="w3-center">camber's Build-Your-Own Commissions</h2>
+                    <h2 class="w3-center">camber's commissions</h2>
                     
                     <h3>Subject matter must meet the following guidelines:</h3>
                     <ul id="guidelines" class="fa-ul">
@@ -66,12 +66,13 @@
                     </ul>
                 </div>
                 
-                <div class="w3-container w3-margin-top" id="steps">
+                <!-- old pricing info -->
+                <!-- div class="w3-container w3-margin-top" id="steps">
                     <div class="step" id="step1">
                         <h3>First, choose your base!</h3>
                         <p>Character Portrait <em>OR</em> Scenic Illustration</p>
                     </div>
-                    <svg height="140" width="100" class="stepsvg">
+                    <svg height="140" width="100" class="stepsvg" title="Step 1">
                         <text fill="#ffffff" font-size="25" font-family="Satisfy" x="30" y="30">step</text>
                         <circle cx="50" cy="90" r="40" fill="#50938a" />
                         <text fill="#ffffff" font-size="50" font-family="Satisfy" x="40" y="110">1</text>
@@ -84,7 +85,7 @@
                             Background levels 0-2 (simple, unfocused, detailed)
                         </p>
                     </div>
-                    <svg height="140" width="100" class="stepsvg">
+                    <svg height="140" width="100" class="stepsvg" title="Step 2">
                         <text fill="#ffffff" font-size="25" font-family="Satisfy" x="30" y="30">step</text>
                         <circle cx="50" cy="90" r="40" fill="#5983b0" />
                         <text fill="#ffffff" font-size="50" font-family="Satisfy" x="40" y="110">2</text>
@@ -97,19 +98,36 @@
                             Premium extras: additional characters
                         </p>
                     </div>
-                    <svg height="140" width="100" class="stepsvg">
+                    <svg height="140" width="100" class="stepsvg" title="Step 3">
                         <text fill="#ffffff" font-size="25" font-family="Satisfy" x="30" y="30">step</text>
                         <circle cx="50" cy="90" r="40" fill="#6b5e9b" />
                         <text fill="#ffffff" font-size="50" font-family="Satisfy" x="40" y="110">3</text>
                     </svg>
-                </div>
+                </div -->
                 
                 <div id="pricing" style="clear:both;">
-                    base price 40, basic level 1 +10, level 2 +25, small extra +10, premium extra +25
-                    ask about ref sheets
+                    <h3>Pricing</h3>
+                    <p>base price (partial body) <strong>40 USD</strong>, add-ons +10 each.</p>
+                    
+                    <h4>Add-on examples:</h4>
+                    <ul>
+                        <li>Full body character illustration</li>
+                        <li>Additional character</li>
+                        <li>Detailed props or mechanical parts</li>
+                        <li>Detailed or architectural landscape or background</li>
+                        <li>Source PSD along with the final product</li>
+                    </ul>
+                    <p><small>This list is not comprehensive; feel free to ask if you have ideas not listed here!</small></p>
+                    <p>
+                        If you're interested, send an email over to
+                        <a href="mailto:theaffablealmond@gmail.com">The Affable Almond</a>
+                        with a description of what you'd like and attached references!
+                    </p>
                 </div>
                 
-                <a href="https://forms.gle/ihWP1uosAYwst8vd9" target="_blank" class="w3-btn btn">Request a commission now!</a>
+                <!-- broken request link -->
+                <!-- a href="https://forms.gle/ihWP1uosAYwst8vd9" target="_blank" class="w3-btn btn">Request a commission now!</a -->
+                
                 
             <!-- End Comms Section -->
             </section>
@@ -118,13 +136,13 @@
             <section class="w3-padding-64 w3-content" id="photos">
                 <h2>Check out my art!</h2>
                 
-                <!-- I'm so tired, here's Snap widget -->
+                <!-- Is it really easier to do this manually. Guess I'll pull out the javascript -->
+                <div id="gallery" title="Gallery of camber's favorite illustrations it has done."></div>
                 
-                <!-- SnapWidget -->
-                <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                <iframe src="https://snapwidget.com/embed/1005431" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; " title="Widget containing the most recent Instagram posts of user almondjoyart, camber's art gallery social media."></iframe>
+                <!-- SnapWidget o7 -->
+                <!-- script src="https://snapwidget.com/js/snapwidget.js"></script>
+                <iframe src="https://snapwidget.com/embed/1005431" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; " title="Widget containing the most recent Instagram posts of user almondjoyart, camber's art gallery social media."></iframe -->
                 
-                <!-- Finally, something that WORKS -->
                 
             <!-- End Portfolio Section -->
             </section>
