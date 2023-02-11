@@ -1,4 +1,4 @@
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Satisfy', cursive;
     color: #FFFFFF;
 }
@@ -82,6 +82,9 @@ svg.stepsvg {
     display: none;
 }
 
+ul#addons {
+    text-align: left;
+}
 
 
 /* For small screens */
