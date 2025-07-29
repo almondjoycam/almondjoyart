@@ -1,0 +1,118 @@
+/* Fonts */
+@font-face {
+    font-family: 'Porcelain';
+    src: url('../fonts/porcelain-webfont.woff2') format('woff2'),
+        url('../fonts/porcelain-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Newt Serif';
+    src: url('../fonts/newtserif-webfont.woff2') format('woff2'),
+        url('../fonts/newtserif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Colours */
+:root {
+    --raisin-black: #272727ff;
+    --tropical-indigo: #9e7decff;
+    --spring-bud: #adff0aff;
+    --atomic-tangerine: #ff9e66ff;
+    --baby-powder: #fdfffcff;
+}
+
+html {
+    color: var(--baby-powder);
+    background-color: var(--raisin-black);
+    font-family: 'Newt Serif', serif;
+}
+
+
+/* Text */
+h1 {
+    font-family: 'Porcelain', cursive;
+    color: var(--baby-powder);
+}
+
+body {
+    font-size: 17pt;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+main {
+    width: 55%;
+    margin: auto;
+}
+
+nav {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlink {
+    margin: 0% 5% 0% 5%;
+}
+
+.icons {
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: var(--spring-bud);
+}
+
+a.txtlink:hover {
+    text-decoration: underline;
+}
+
+a.btn {
+    background-color: #000000;
+    padding: 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+.btn:hover {
+    background-color: #6b5e9b55;
+}
+
+
+/* For small screens */
+@media only screen and (max-width: 700px) {
+    main {
+        width: 95%;
+        margin: auto;
+    }
+
+    .navlink {
+        margin: 0%;
+    }
+
+}
+
+/* For large screens */
+@media only screen and (min-width: 1000px) {}

@@ -1,0 +1,28 @@
+{
+    "dependencies": {
+        "eleventy": "^1.0.7",
+        "photoswipe": "^5.4.4"
+    },
+    "name": "almondjoyart",
+    "description": "Commission information",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "prepare": "echo 'need to write the image scripts first!'",
+        "build": "npx @11ty/eleventy",
+        "serve": "npx @11ty/eleventy --serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/almondjoycam/almondjoyart.git"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Camber Boles"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/almondjoycam/almondjoyart/issues"
+    },
+    "homepage": "https://github.com/almondjoycam/almondjoyart#readme"
+}

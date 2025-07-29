@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+
+<section class="pswp-gallery" id="artgallery">
+    {% for image in images %}
+        {% if image.url | length %}
+            <a href="{{ image.url }}" data-pswp-width="{{ image.width }}" data-pswp-height="{{ image.height }}" target="_blank" class="gallery-img">
+                <picture>
+                    {% if image.thumbAvif %}
+                        <source type="image/avif" srcset="{{ image.thumbAvif }}">
+                        {% endif %}
+                        <img loading="lazy" alt="{{ image.alt }}" src="{{ image.thumb }}" width="300px" height="300px"></picture>
+                    </a>
+                {% endif %}
+            {%- endfor %}
+        </section>
