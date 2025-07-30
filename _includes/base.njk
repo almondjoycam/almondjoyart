@@ -1,23 +1,28 @@
----
-title: camber
----
-
 <!DOCTYPE html>
 <html lang='en'>
     <head>
         <!-- Title -->
-        <title>{{ Title }}</title>
+        <title>Camber's {{ title | safe }}</title>
         <link
-        rel="icon" type="image/png" href="imgs/pfp-ico.png"> <!-- Display information -->
+        rel="icon" type="image/png" href="/static/imgs/pfp-ico.png"> <!-- Display information -->
         <meta charset="UTF-8">
         <meta
         name="viewport" content="width=device-width, initial-scale=1"> <!-- Stylesheets -->
         <link
-        rel="stylesheet" href="styles/default.css">
+        rel="stylesheet" href="/static/styles/default.css">
         <!-- Icons -->
         <script src="https://kit.fontawesome.com/c938d70fe8.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <header>
+            <h1>Camber's Creations</h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/gallery/">Illustration</a>
+                <a href="/web/">Websites</a>
+                <a href="/game-development/">Games</a>
+            </nav>
+        </header>
         <main>
             {{ content | safe }}
         </main>

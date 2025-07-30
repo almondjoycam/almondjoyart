@@ -46,7 +46,8 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 28pt;
+    font-size: 5em;
+    font-weight: 300;
 }
 
 h2 {
@@ -63,22 +64,25 @@ main {
 }
 
 nav {
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-    top: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
 
-.navlink {
-    margin: 0% 5% 0% 5%;
+nav a {
+    width: 20vw;
+    margin: 10px;
+    padding: 1em 2em;
+}
+
+nav a:hover {
+    color: var(--baby-powder);
+    background-color: #fdfffc33;
 }
 
 .icons {
-    color: #FFFFFF;
+    color: var(--baby-powder);
 }
 
 a {
