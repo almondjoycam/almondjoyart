@@ -2,7 +2,7 @@
 title: Creations
 ---
 
+I'm a career programming teacher, and I've been creating and developing as
+a hobby for as long as I can remember.
 
-## Contact
-
-<iframe src="https://fabform.io/v/RO0K6ytJyAf1" style="width:100%; height:300px;" frameborder="0"></iframe>
+Please feel free to reach out by sending a message to theaffablealmond (at) gmail (dot) com.

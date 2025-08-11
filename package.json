@@ -8,7 +8,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "prepare": "echo 'need to write the image scripts first!'",
+        "prepare": "prep/makePng.sh; prep/makeThumbs.sh; prep/makeAvif.sh; prep/makeJson.sh",
         "build": "npx @11ty/eleventy",
         "serve": "npx @11ty/eleventy --serve"
     },
