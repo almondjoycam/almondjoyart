@@ -18,4 +18,7 @@ module.exports = function (eleventyConfig) {
 
         return filterTagList([...tagSet]);
     });
+
+    // Dev server listens to passthroughs
+    eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 }

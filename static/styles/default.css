@@ -1,7 +1,7 @@
 /* Fonts */
 @import url('../fonts/stylesheet.css');
 
-/* Colours */
+/* Default styles */
 :root {
     --raisin-black: #272727ff;
     --tropical-indigo: #9e7decff;
@@ -13,20 +13,53 @@
 html {
     color: var(--baby-powder);
     background-color: var(--raisin-black);
-    /* font-family: 'Newt Serif', serif; */
     font-family: 'SciFly Sans', sans-serif;
 }
 
+body {
+    font-size: 17pt;
+    text-align: center;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav a {
+    width: 20vw;
+    margin: 10px;
+    padding: 1em 2em;
+}
+
+nav a:hover {
+    color: var(--baby-powder);
+    background-color: #fdfffc33;
+}
+
+a.btn {
+    background-color: #000000;
+    padding: 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+.btn:hover {
+    background-color: #6b5e9b55;
+}
 
 /* Text */
 h1 {
     font-family: 'Porcelain', cursive;
     color: var(--baby-powder);
-}
-
-body {
-    font-size: 17pt;
-    /* text-align: center; */
 }
 
 h1 {
@@ -43,27 +76,8 @@ h3 {
     font-size: 20pt;
 }
 
-main {
-    width: 55%;
-    margin: auto;
-}
-
-nav {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-nav a {
-    width: 20vw;
-    margin: 10px;
-    padding: 1em 2em;
-}
-
-nav a:hover {
-    color: var(--baby-powder);
-    background-color: #fdfffc33;
+p {
+    text-align: left;
 }
 
 .icons {
@@ -79,29 +93,48 @@ a.txtlink:hover {
     text-decoration: underline;
 }
 
-a.btn {
-    background-color: #000000;
+/* Widget */
+div.lastfm {
+    width: 100% !important;
+}
+
+/* Form */
+form {
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 90%;
     padding: 10px;
-    margin: 30px 10px 10px 10px;
+    margin: 16px;
+    font: inherit;
 }
 
-.btn:hover {
-    background-color: #6b5e9b55;
+textarea {
+    resize: vertical;
 }
 
+label {
+    display: block;
+    margin-left: 16px;
+    width: 90%;
+}
 
-/* For small screens */
-@media only screen and (max-width: 700px) {
-    main {
-        width: 95%;
-        margin: auto;
-    }
-
-    .navlink {
-        margin: 0%;
-    }
-
+/* Gallery */
+.pswp__button i {
+    text-align: center;
+    padding: 20px 15px;
 }
 
 /* For large screens */
-@media only screen and (min-width: 1000px) {}
+@media only screen and (min-width: 1000px) {
+    main {
+        width: 55%;
+        margin: auto;
+    }
+
+    nav {
+        flex-flow: row nowrap;
+    }
+}

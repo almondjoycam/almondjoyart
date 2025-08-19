@@ -1,9 +1,8 @@
 ---
-layout: base.njk
+layout: gallery-base.njk
 title: Illustrations
 ---
 
-{# THERE SHOULD BE A LINK TO PHOTOSWIPE STYLESHEET SOMEWHERE! #}
 <section class="pswp-gallery" id="artgallery">
     {% for image in images %}
         {% if image.url | length %}
