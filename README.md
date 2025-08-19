@@ -1,2 +1,0 @@
-# almondjoyart
-Commission information
