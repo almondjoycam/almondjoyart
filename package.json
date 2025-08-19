@@ -8,7 +8,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "prepare": "prep/makePng.sh; prep/makeThumbs.sh; prep/makeAvif.sh; prep/makeJson.sh",
+        "prepare-images": "prep/makePng.sh; prep/makeThumbs.sh; prep/makeAvif.sh; prep/makeJson.sh",
         "build": "npx @11ty/eleventy",
         "serve": "npx @11ty/eleventy --serve",
         "build-ghpages": "npx @11ty/eleventy --pathprefix=/almondjoyart/"
