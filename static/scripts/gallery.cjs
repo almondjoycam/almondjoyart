@@ -1,12 +1,11 @@
 // adapted from https://github.com/httpsterio/11ty-gallery/blob/master/static/js/index.js
 
-// import PhotoSwipeLightbox from "photoswipe/lightbox";
-const PhotoSwipeLightbox = require("photoswipe/lightbox")
+
 const options = {
     gallery: '#artgallery',
     children: 'a',
     showHideAnimationType: 'none',
-    pswpModule: () => import('photoswipe')
+    pswpModule: PhotoSwipe
 };
 const lightbox = new PhotoSwipeLightbox(options);
 lightbox.on('uiRegister', function () {
