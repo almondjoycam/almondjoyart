@@ -11,7 +11,7 @@ Current listening: <div class="lastfm"></div>
 
 Also check out my [Stats.fm page](https://stats.fm/almondjoycam)!
 
-Reading _Gender and Power_ by [Raewyn Connell](http://www.raewynconnell.net/) (1987)
+Current reading: _Gender and Power_ by [Raewyn Connell](http://www.raewynconnell.net/) (1987)
 
 ## Contact Me
 

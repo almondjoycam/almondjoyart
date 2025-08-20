@@ -33,6 +33,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-bottom: 3px double #fdfffc33;
 }
 
 nav a {
@@ -44,16 +45,6 @@ nav a {
 nav a:hover {
     color: var(--baby-powder);
     background-color: #fdfffc33;
-}
-
-a.btn {
-    background-color: #000000;
-    padding: 10px;
-    margin: 30px 10px 10px 10px;
-}
-
-.btn:hover {
-    background-color: #6b5e9b55;
 }
 
 /* Text */
@@ -80,17 +71,21 @@ p {
     text-align: left;
 }
 
-.icons {
+i {
     color: var(--baby-powder);
 }
 
-a {
-    text-decoration: none;
+a i:hover {
     color: var(--spring-bud);
 }
 
-a.txtlink:hover {
-    text-decoration: underline;
+a {
+    color: var(--spring-bud);
+    text-decoration: none;
+}
+
+a:not(nav a) {
+    border-bottom: 1px dotted var(--spring-bud);
 }
 
 /* Widget */
@@ -105,10 +100,15 @@ form {
 
 input,
 textarea {
-    width: 90%;
+    display: block;
+    width: 85%;
     padding: 10px;
     margin: 16px;
     font: inherit;
+    background-color: var(--baby-powder);
+    border: none;
+    border-radius: 3px;
+    color: var(--raisin-black);
 }
 
 textarea {
@@ -119,6 +119,12 @@ label {
     display: block;
     margin-left: 16px;
     width: 90%;
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: var(--tropical-indigo);
+    color: black;
 }
 
 /* Gallery */

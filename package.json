@@ -11,7 +11,8 @@
         "prepare-images": "prep/makePng.sh; prep/makeThumbs.sh; prep/makeAvif.sh; prep/makeJson.sh",
         "build": "npx @11ty/eleventy",
         "serve": "npx @11ty/eleventy --serve",
-        "build-ghpages": "npx @11ty/eleventy --pathprefix=/almondjoyart/"
+        "build-ghpages": "npx @11ty/eleventy --pathprefix=/almondjoyart/",
+        "serve-ghpages": "npx @11ty/eleventy --serve --pathprefix=/almondjoyart/"
     },
     "repository": {
         "type": "git",
