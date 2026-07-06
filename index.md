@@ -2,7 +2,9 @@
 title: Creations
 ---
 
-I'm a career programming teacher, and I've been creating and developing as
+## About Me
+
+I'm a teacher, and I've been creating and developing as
 a hobby for as long as I can remember.
 
 ## Right Now
@@ -11,14 +13,14 @@ Current listening: <div class="lastfm"></div>
 
 Also check out my [Stats.fm page](https://stats.fm/almondjoycam)!
 
-Current reading: _Gender and Power_ by [Raewyn Connell](http://www.raewynconnell.net/) (1987)
+Current reading: [_Dreamland_ by Sam Quinones](https://search.worldcat.org/title/1079412052) (2019)
 
 ## Contact Me
 
 Use this form to reach out or request commissioned work.
 
 <form id="contact-form">
-    <input type="hidden" name="time" id="time" value="Mar 10 2025 08:46" aria-hidden=true>
+    <input type="hidden" name="time" id="time" value="" aria-hidden=true>
     <label for="name">Name</label>
     <input type="text" name="name" id="name" required>
     <label for="email">Email</label>
